@@ -67,7 +67,7 @@ def print_station_info(stations, distances, message):
 
     walking_speed_meters_per_second = 1.35 # https://www.healthline.com/health/exercise-fitness/average-walking-speed
     
-    if distances[closest_station_index] * 1.2 >= 500:
+    if distances[closest_station_index] / 1.2 >= 500:
         print('Warning - station may be more than 500 meters away (off street map)')
         
     print(f"{distances[closest_station_index] / (walking_speed_meters_per_second * 60):.1f} minutes away")

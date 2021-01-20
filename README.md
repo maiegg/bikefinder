@@ -23,7 +23,8 @@ Quickly print some useful outputs including:
     + This trick, using `if distances[closest_station_index] * 1.2 >= 500:` relies on something called a *circuity factor*<sup>1</sup> to provide an estimate of the longest walking distance reachable within the graph zone 
     
 Here's a demonstration of the script's capability, finding the nearest Blue Bikes stations to a point in the middle of Boston Common and highlighting the shortest paths a pedestrian would take to reach them: <br>
-<img align='center' src='https://github.com/maiegg/bikefinder/blob/main/bike_example.png'>
+
+<span style="display:block;text-align:center">![Image missing]https://github.com/maiegg/bikefinder/blob/main/bike_example.png)</span>
 
 <sup>1</sup> https://tram.mcgill.ca/Research/Publications/Circuity.pdf
     

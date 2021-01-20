@@ -3,7 +3,7 @@ Find the nearest bikeshare stations to your current location and report on their
 
 Heavy lifting here is done by the [gbfs-client library](https://pypi.org/project/gbfs-client/). I love transportation, maps, and quick tricks to make life easier - this is all three. 
 
-For any bikeshare system tracked by the `gbfs-client` library - currently over 400 worldwide, find the nearest bike share stations to a precise location or to an approximate measurement of the user's location. Report the names, coordinates, approximate walking time in minutes, and real-time remaining capacity (bikes in docks) at the station. 
+For any bikeshare system tracked by the `gbfs-client` library - currently over 400 worldwide! - you can find the nearest bike share stations to a precise location or to an approximate measurement of the user's location. Report the names, coordinates, approximate walking time in minutes, and real-time remaining capacity (bikes in docks) at the station. 
 
 Right now, Boston (where I lived for a few years) is hard-coded in: the city's bikeshare system is called `bluebikes`. However, the GBFS client tool allows you to easily discover bikeshare systems by real locations (example taken straight from docs): 
 ```

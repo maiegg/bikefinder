@@ -24,7 +24,9 @@ Quickly print some useful outputs including:
     
 Here's a demonstration of the script's capability, finding the nearest Blue Bikes stations to a point in the middle of Boston Common and highlighting the shortest paths a pedestrian would take to reach them: <br>
 
-<span style="display:block;text-align:center">![Image missing]https://github.com/maiegg/bikefinder/blob/main/bike_example.png)</span>
+<p align="center">
+  <img src="https://github.com/maiegg/bikefinder/blob/main/bike_example.png" />
+</p>
 
 <sup>1</sup> https://tram.mcgill.ca/Research/Publications/Circuity.pdf
     
